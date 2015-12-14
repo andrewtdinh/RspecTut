@@ -1,4 +1,4 @@
-require_relative "../lib/cart.rb"
+require "../lib/cart.rb"
 
 describe Cart do
   context "a new cart" do
