@@ -1,5 +1,9 @@
 class Cart
+  def initialize
+    @items = {}
+  end
+
   def empty?
-    return nil
+    @items.empty?
   end
 end
