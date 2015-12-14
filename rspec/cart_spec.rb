@@ -6,6 +6,10 @@ describe 'An instant of', Cart do
     @cart = Cart.new
   end
 
+  it 'should be properly initialize' do
+    expect(@cart).to be_a(Cart)
+  end
+
   context 'when new' do
     it 'contains no items' do
       expect(@cart).to be_empty
